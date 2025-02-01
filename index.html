@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr MS DEEPAK Portfolio Website</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="https://kit.fontawesome.com/2c033f82e4.js" crossorigin="anonymous"></script>
+</head>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <br><span>Deepak</span> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/msd2.jpg">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Iam From Tamilnadu.I completed my Schooling in SRMV Swami Shivananda Higher Secondary School at Coimbatore Tamilnadu.Now Iam pursuring my B.E Undergraduate Electronics and Communication Program in Sri Krishna College of Technology at Coimbatore Tamilnadu.I can able to adapt in any place according to the Situations.Concentration and Completion of the Tasks is Excellent.</p>
+        
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Solving the Problem Statement using Java with Simple and Easy Solving Steps are used to Understand.</li>
+                            <li><span>HTML</span><br>Creating FrontEnd of the website using HTML with all Decorations and Users Fullfillments are acheived for the Work.</li>
+                            <li><span>DSA</span><br>Solving the Problem Statement using DSA in all Concepts with the Logics and Strategics for the Problem Statement.</li>
+                            <li><span>C++</span><br>Solving the Problems using c++ with Users Expectations fullfillment and without any Errors in Time.</li>
+                            <li><span>MySql</span><br>Accessing the Database to take the Datas and Create Tables to store Datas in the Database for the Safety Purposes.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-2025</span><br>Internship Training in the Electronics Company for the 25 days with Certificate.</li>
+                            <li><span>2024-2025</span><br>AICTE projects were Completed in all the Categories and The Certificates are Given to me for the Projects.</li>
+                            <li><span>2018-2020</span><br>Ncc Candidate and Overall championship in Coimbatore.10days Camp in PSG Coimbatore with Practice of the Drills, Gun Shooting, Trainnings, etc...</li>
+                        
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023- Current</span><br>Sri Krishna College of Technology.</li>
+                            <li><span>2021-2023</span><br>SRMV Swami Shivananda Higher Secondary School.</li>
+                            <li><span>2016-2021</span><br>SRMV Swami Shivananda Higher Secondary School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-clipboard-question"></i>
+                    <h2>Problem Solving</h2>
+                    <p>An Complex Problems can be Solved Easily Using all Programming Languages such as C++, Java, DSA, React, Etc... with Simple Code and Easy to Understand.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Webpage creation</h2>
+                    <p>An Awesome Website will be Created using Java,Css,HTML,etc... with the Attractive WebPages for the Users User-Friendly and Easy to Use the Website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-servicestack"></i>
+                    <h2>All Services</h2>
+                    <p>Any Type of Services can be done Easily with the Short Time and Without any Errors to Find in the work is the Assurance Given by me for the LifeTime.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+               
+                    <div class="work">
+                        <img src="Images/portfolio.png">
+                        <div class="layer">
+                            <h3>Portfolio Website</h3>
+                            <p>Personal Portfolio Website created using Html and Css by Own with the all Neccessary Details and Informations in the Portfolio,You can Use the Link to Open.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/form1.png">
+                        <div class="layer">
+                            <h3>Login Form</h3>
+                            <p>Using the HTML and Css I, Created a Email Login Form to Login by the User to Access their Needs.The Actions of the User will be Monitored and Noted.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/calc1.png">
+                        <div class="layer">
+                            <h3>Scientific Calculator</h3>
+                            <p>The Scientific Calculator is Created using the Language HTML and Css.The Calculator can Perform all type of Operations Easily within a Short Period of Time. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                     </div>
+                        </div>
+                        <!-- -----------contact------------ -->
+                         <div id="contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="contact-left">
+                                        <h1 class="sub-title">Contact Me</h1>
+                                        <p> <i class="fa-solid fa-paper-plane"></i> msdeepak000@gmail.com.com</p>
+                                        <p> <i class="fa-solid fa-square-phone"></i> 8248377726</p>
+                                        <div class="social-icons">
+                                            <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=deepak-ms-470573305"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+                                            <a href="https://www.instagram.com/_ms_d____/profilecard/?igsh=M2Y4OXd3cW0xOHA1"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                        <a href="Images/Queue_New.pdf" download class="btn btn2">Download</a>
+                                    </div>
+                                    <div class="contact-right">
+                                        <form name="submit-to-google-sheet">
+                                            <input type="text" name="Name" placeholder="Your Name" required>
+                                            <input type="email" name="Email" placeholder="Your Email" required>
+                                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                            <button type="submit" class="btn btn2">Submit</button>
+                                        </form>
+                                        <span id="msg"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="copyright">
+                                <p>Copyright @ Deepak. Made with <i class="fa-solid fa-heart"></i> VS Code</p>
+                            </div>
+                         </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyOFoEMFTxXVpYjPRvKKgiuE-omZY-ruf0XXPYYKSwYR8imkT_8Kegmx1H-NysAAuNT/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
